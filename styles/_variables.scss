@@ -1,0 +1,43 @@
+$textColor: #333;
+$bgColor: #f8f8f8;
+$smallSize: 1.2rem;
+$medSize: 1.5rem;
+$largeSize: 2.2rem;
+$margin: 0.5rem;
+$padding: 0.3rem;
+
+@mixin responsiveLayout {
+  max-width: 1100px;
+  margin: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: $bgColor;
+  color: $textColor;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: $smallSize;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  margin: 3rem 1rem;
+  padding: $padding;
+}
